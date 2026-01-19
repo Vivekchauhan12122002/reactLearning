@@ -10,8 +10,9 @@ function Hidetext() {
         text
         {isvisible ? "Hide" : "Show"}
       </button>
-      {isvisible && <p>i am heaar</p>}
+      {isvisible && <p>i am here</p>}
     </div>
   );
 }
 export default Hidetext;
+
