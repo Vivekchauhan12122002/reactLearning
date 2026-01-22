@@ -10,6 +10,7 @@ function Nform(params) {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(formData);
+    
   };
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -46,9 +47,10 @@ function Nform(params) {
             placeholder="Age"
             value={formData.age}
             onChange={handleChange}
+             
           />
           <br />
-          <button type="submit"> submit</button>
+          <button type="submit">Submit</button>
         </form>
       </div>
     </>
